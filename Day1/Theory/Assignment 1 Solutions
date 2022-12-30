@@ -52,3 +52,29 @@ In Defer:
 		Defer attribute should be used when our scripts are dependent on each other.
 		Defer maintains the order of the execution of the scripts.
 -------------------------------------------------------------------------------------------------------------
+5) Difference between library and framework
+Ans)
+Library:
+a) Our code calls the library.
+b) It is not independently executable unit.
+c) Can be integrated with projects easily.
+4) Ex: ReactJS etc
+Framework:
+1) Our code is called by the framework.
+2) It can be executed independently.
+3) Integrating framework with our project is not a smooth process.
+4) Ex:AngularJS, NodeJS etc
+-------------------------------------------------------------------------------------------------------------
+6)Why React is known as React ?
+Ans)React is called 'React' because of its ablity to react to changes in data. When data and state in React componenent
+changes it will automatically re-render to reflect the changes.
+-------------------------------------------------------------------------------------------------------------
+7)What is the difference between React and ReactDOM?
+Ans) The React package holds react source of component, props, state and all the code react is.
+ReactDOM is a library which gives us a method call 'render()' which renders our react element into the browser.
+-------------------------------------------------------------------------------------------------------------
+8)What is difference between react.development.js and react.production.js files via CDN?
+Ans)react.development.js -> they are only to be used in development process. They are not minified and 
+optimised version of React.
+react.production.js  -> They are used in production environment as they are minified and optimised version of React.
+-------------------------------------------------------------------------------------------------------------
